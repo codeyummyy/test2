@@ -1,0 +1,12 @@
+{
+  "name": "ai-for-vlsi-guide",
+  "version": "1.0.0",
+  "description": "AI for VLSI: A Practical Guide to AI-Driven RTL Design and Verification",
+  "scripts": {
+    "pdf": "node generate-pdf.js",
+    "pdf:cover": "node generate-pdf.js --cover"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
